@@ -125,4 +125,59 @@ This application processes natural-language user queries—such as product searc
 ---
 
 ## Example Directory Structure
+project-root/
+├── app/
+│ ├── llm_interface.py
+│ ├── mcp_client.py
+│ ├── extractors/
+│ │ ├── amazon.py
+│ │ └── flipkart.py
+│ ├── excel_report.py
+│ ├── main.py
+│ └── utils.py
+├── requirements.txt
+├── README.md
+├── MCP_AUTOMATION.md
+├── WORKFLOW_EXAMPLES.md
+└── samples/
+├── laptops_under_50K.xlsx
+├── bangalore_to_sf_flights.xlsx
+└── airpods_prices_comparison.xlsx
+
+
+
+---
+
+## Sample Output (Excel Reports)
+
+- **Products:**  
+  Columns: Name, Price, Rating, Review Count, Features, Shop, Product Link
+- **Flights:**  
+  Columns: Airline, Departure, Arrival, Duration, Stops, Price, Booking Link
+- **Analytics:**  
+  Price distribution, best-rated options, cross-site comparison charts
+
+---
+
+## Setup Requirements
+
+- Python 3.8+
+- Dependencies: `openai`, `anthropic`, `python-dotenv`, `beautifulsoup4`, `lxml`, `pandas`, `openpyxl`, `playwright`, etc. (see `requirements.txt`)
+- LLM access: OpenAI or Anthropic API key, or working local model
+- Full user/developer documentation:  
+  - Setup, use: `README.md`  
+  - Browser automation: `MCP_AUTOMATION.md`  
+  - Sample workflows: `WORKFLOW_EXAMPLES.md`
+
+---
+
+## Performance and Extensibility
+
+- Modular, extensible design—easy to add new sites and query types
+- Advanced prompt and error handling for robust results
+- Dynamic, instantly actionable Excel reports with analytics, filters, and sorting
+
+---
+
+This application provides a rapid, intelligent solution for extracting, analyzing, and reporting e-commerce and travel data, empowering users with rich Excel outputs for any supported natural-language query.
 
