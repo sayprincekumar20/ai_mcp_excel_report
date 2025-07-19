@@ -136,17 +136,29 @@ project-root/
 │ ├── extractors/
 
 │ │ ├── amazon.py
+
 │ │ └── flipkart.py
+
 │ ├── excel_report.py
+
 │ ├── main.py
+
 │ └── utils.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── MCP_AUTOMATION.md
+
 ├── WORKFLOW_EXAMPLES.md
+
 └── samples/
+
 ├── laptops_under_50K.xlsx
+
 ├── bangalore_to_sf_flights.xlsx
+
 └── airpods_prices_comparison.xlsx
 
 
