@@ -1,0 +1,6 @@
+openai
+pandas
+openpyxl
+requests
+mcp-playwright
+python-dotenv
