@@ -126,10 +126,15 @@ This application processes natural-language user queries—such as product searc
 
 ## Example Directory Structure
 project-root/
+
 ├── app/
+
 │ ├── llm_interface.py
+
 │ ├── mcp_client.py
+
 │ ├── extractors/
+
 │ │ ├── amazon.py
 │ │ └── flipkart.py
 │ ├── excel_report.py
